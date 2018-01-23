@@ -2,9 +2,7 @@
 
 show databases;
 use test;
-
 show tables;
-
 select count(*) from user_score;
 
 DROP TABLE user_score;
