@@ -31,18 +31,17 @@ INSERT INTO user_score (first_name, last_name, score) VALUES ('paul','williams',
 INSERT INTO user_score (first_name, last_name) VALUES ('sarah','williams');
 
 select * from user_score;
-
 <a href="https://imgur.com/a2f1u7t"><img src="https://i.imgur.com/a2f1u7t.png" title="source: imgur.com" /></a>
 
 select last_name, AVG(score), MIN(score), MAX(score) from user_score GROUP BY last_name;
-<img src='https://i.imgur.com/a2f1u7t.png ' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
 <a href="https://imgur.com/2jLL3XP"><img src="https://i.imgur.com/2jLL3XP.png" title="source: imgur.com" /></a>
+
 select last_name, AVG(score), MIN(score), MAX(score) from user_score GROUP BY 1 ORDER BY 2 DESC;
 <a href="https://imgur.com/2jLL3XP"><img src="https://i.imgur.com/2jLL3XP.png" title="source: imgur.com" /></a>
 
 select last_name from user_score;
 <a href="https://imgur.com/5Wzm9Qz"><img src="https://i.imgur.com/5Wzm9Qz.png" title="source: imgur.com" /></a>
+
 select distinct (last_name) from user_score;
 <a href="https://imgur.com/UNbHpIa"><img src="https://i.imgur.com/UNbHpIa.png" title="source: imgur.com" /></a>
 
