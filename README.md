@@ -1,7 +1,6 @@
 # pythonstudy1
 
 show databases;
-
 use test;
 
 show tables;
