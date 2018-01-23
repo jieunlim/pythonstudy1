@@ -30,6 +30,8 @@ INSERT INTO user_score (first_name, last_name, score) VALUES ('paul','williams',
 
 INSERT INTO user_score (first_name, last_name) VALUES ('sarah','williams');
 
+# HOMEWORK
+
 select * from user_score;
 
 <a href="https://imgur.com/a2f1u7t"><img src="https://i.imgur.com/a2f1u7t.png" title="source: imgur.com" /></a>
